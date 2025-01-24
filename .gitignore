@@ -57,3 +57,22 @@ Temporary Items
 # GameMaker temporary files
 *.resource_order
 *.old
+
+# Build and cache files
+*.win
+*.zip
+*.tmp
+*.yyz
+*.yymp
+
+# Temporary files
+.idea/
+.vs/
+*.log
+*.bak
+
+# Local settings
+*.user
+
+# Backup files
+backups/
