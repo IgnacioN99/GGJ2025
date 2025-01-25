@@ -10,6 +10,6 @@ function descontar_vida(){
 	if(temp_health>0){
 		temp_health-=1;
 	}else{
-		p_health-=p_health;
+		p_health-=1;
 	}
 }
