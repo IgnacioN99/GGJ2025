@@ -2,12 +2,18 @@ var k_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 var k_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 var k_jump = keyboard_check_pressed(vk_space) || keyboard_check(vk_up) || keyboard_check((ord("W")));
 
+if (k_right){
+	sprite_index = player_right_sprite;
+}else if (k_left){
+	sprite_index = player_left_sprite;
+}
+
 var move = k_right - k_left;
 
 v_speed = v_speed + grv;
 
 if(place_meeting(x,y+1,ground_object)) && (k_jump){
-	v_speed =-7;
+	v_speed -= jump_distance;
 }
 
 

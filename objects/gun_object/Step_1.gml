@@ -1,7 +1,7 @@
-x = player_object.x+10;
-y = player_object.y+10;
+x = player_object.x+5;
+y = player_object.y-140;
 
-image_angle =point_direction(x,y,mouse_x,mouse_y);
+image_angle = point_direction(x,y,mouse_x,mouse_y);
 recoil=max(0,recoil-1);
 firing_delay = firing_delay-1;
 if (mouse_check_button(mb_left)) && (firing_delay<0){
