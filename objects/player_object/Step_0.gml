@@ -1,6 +1,6 @@
-var k_left = keyboard_check(vk_left);
-var k_right = keyboard_check(vk_right);
-var k_jump = keyboard_check_pressed(vk_space);
+var k_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+var k_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+var k_jump = keyboard_check_pressed(vk_space) || keyboard_check(vk_up) || keyboard_check((ord("W")));
 
 var move = k_right - k_left;
 
