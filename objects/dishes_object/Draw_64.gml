@@ -1,0 +1,1 @@
+draw_text_color(50,20,vida,c_black,c_black,c_black,c_black,100);

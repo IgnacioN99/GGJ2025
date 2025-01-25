@@ -7,7 +7,7 @@ var move = k_right - k_left;
 v_speed = v_speed + grv;
 
 if(place_meeting(x,y+1,ground_object)) && (k_jump){
-	v_speed =-7;
+	v_speed -= jump_distance;
 }
 
 
@@ -29,3 +29,16 @@ if(place_meeting(x, y+v_speed, ground_object)){
 }
 
 y = y + v_speed;
+
+if(temp_health>0){
+	temp_health_timer-=1;
+	if (temp_health_timer<=0){
+		temp_health-=1;
+	}
+}
+
+if (h_speed < 0) {
+    image_xscale = -1; // Izquierda
+} else if (h_speed > 0) {
+    image_xscale = 1; // Derecha
+}

@@ -1,90 +1,160 @@
 {
-  "$GMSprite":"",
-  "%Name":"gun_sprite",
-  "bboxMode":0,
-  "bbox_bottom":52,
-  "bbox_left":7,
-  "bbox_right":53,
-  "bbox_top":10,
-  "collisionKind":1,
-  "collisionTolerance":0,
-  "DynamicTexturePage":false,
-  "edgeFiltering":false,
-  "For3D":false,
-  "frames":[
-    {"$GMSpriteFrame":"","%Name":"65781776-edd4-4f53-8258-6f9c2aaa0a88","name":"65781776-edd4-4f53-8258-6f9c2aaa0a88","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  "$GMSprite": "",
+  "%Name": "gun_sprite",
+  "bboxMode": 0,
+  "bbox_bottom": 78,
+  "bbox_left": 10,
+  "bbox_right": 118,
+  "bbox_top": 44,
+  "collisionKind": 1,
+  "collisionTolerance": 0,
+  "DynamicTexturePage": false,
+  "edgeFiltering": false,
+  "For3D": false,
+  "frames": [
+    {
+      "$GMSpriteFrame": "",
+      "%Name": "134f4382-78a0-4c8f-a0ae-01d3153c70ef",
+      "name": "134f4382-78a0-4c8f-a0ae-01d3153c70ef",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    }
   ],
-  "gridX":0,
-  "gridY":0,
-  "height":60,
-  "HTile":false,
-  "layers":[
-    {"$GMImageLayer":"","%Name":"2c108278-349a-4674-9d4c-9ae8810848cd","blendMode":0,"displayName":"default","isLocked":false,"name":"2c108278-349a-4674-9d4c-9ae8810848cd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  "gridX": 0,
+  "gridY": 0,
+  "height": 120,
+  "HTile": false,
+  "layers": [
+    {
+      "$GMImageLayer": "",
+      "%Name": "81a49936-6561-4ebc-b2b0-a552f9d4c28e",
+      "blendMode": 0,
+      "displayName": "default",
+      "isLocked": false,
+      "name": "81a49936-6561-4ebc-b2b0-a552f9d4c28e",
+      "opacity": 100.0,
+      "resourceType": "GMImageLayer",
+      "resourceVersion": "2.0",
+      "visible": true
+    }
   ],
-  "name":"gun_sprite",
-  "nineSlice":null,
-  "origin":0,
-  "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+  "name": "gun_sprite",
+  "nineSlice": {
+    "$GMNineSliceData": "",
+    "bottom": 0,
+    "enabled": false,
+    "guideColour": [4294902015, 4294902015, 4294902015, 4294902015],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "left": 0,
+    "resourceType": "GMNineSliceData",
+    "resourceVersion": "2.0",
+    "right": 0,
+    "tileMode": [0, 0, 0, 0, 0],
+    "top": 0
   },
-  "preMultiplyAlpha":false,
-  "resourceType":"GMSprite",
-  "resourceVersion":"2.0",
-  "sequence":{
-    "$GMSequence":"",
-    "%Name":"gun_sprite",
-    "autoRecord":true,
-    "backdropHeight":768,
-    "backdropImageOpacity":0.5,
-    "backdropImagePath":"",
-    "backdropWidth":1366,
-    "backdropXOffset":0.0,
-    "backdropYOffset":0.0,
-    "events":{
-      "$KeyframeStore<MessageEventKeyframe>":"",
-      "Keyframes":[],
-      "resourceType":"KeyframeStore<MessageEventKeyframe>",
-      "resourceVersion":"2.0",
+  "origin": 9,
+  "parent": {
+    "name": "Sprites",
+    "path": "folders/Sprites.yy"
+  },
+  "preMultiplyAlpha": false,
+  "resourceType": "GMSprite",
+  "resourceVersion": "2.0",
+  "sequence": {
+    "$GMSequence": "",
+    "%Name": "gun_sprite",
+    "autoRecord": true,
+    "backdropHeight": 768,
+    "backdropImageOpacity": 0.5,
+    "backdropImagePath": "",
+    "backdropWidth": 1366,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "events": {
+      "$KeyframeStore<MessageEventKeyframe>": "",
+      "Keyframes": [],
+      "resourceType": "KeyframeStore<MessageEventKeyframe>",
+      "resourceVersion": "2.0"
     },
-    "eventStubScript":null,
-    "eventToFunction":{},
-    "length":1.0,
-    "lockOrigin":false,
-    "moments":{
-      "$KeyframeStore<MomentsEventKeyframe>":"",
-      "Keyframes":[],
-      "resourceType":"KeyframeStore<MomentsEventKeyframe>",
-      "resourceVersion":"2.0",
+    "eventStubScript": null,
+    "eventToFunction": {},
+    "length": 1.0,
+    "lockOrigin": false,
+    "moments": {
+      "$KeyframeStore<MomentsEventKeyframe>": "",
+      "Keyframes": [],
+      "resourceType": "KeyframeStore<MomentsEventKeyframe>",
+      "resourceVersion": "2.0"
     },
-    "name":"gun_sprite",
-    "playback":1,
-    "playbackSpeed":30.0,
-    "playbackSpeedType":0,
-    "resourceType":"GMSequence",
-    "resourceVersion":"2.0",
-    "showBackdrop":true,
-    "showBackdropImage":false,
-    "timeUnits":1,
-    "tracks":[
-      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"65781776-edd4-4f53-8258-6f9c2aaa0a88","path":"sprites/gun_sprite/gun_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"10e4dbdc-b862-4729-a767-fbdcc2866363","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-          ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    "name": "gun_sprite",
+    "playback": 1,
+    "playbackSpeed": 30.0,
+    "playbackSpeedType": 0,
+    "resourceType": "GMSequence",
+    "resourceVersion": "2.0",
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "timeUnits": 1,
+    "tracks": [
+      {
+        "$GMSpriteFramesTrack": "",
+        "builtinName": 0,
+        "events": [],
+        "inheritsTrackColour": true,
+        "interpolation": 1,
+        "isCreationTrack": false,
+        "keyframes": {
+          "$KeyframeStore<SpriteFrameKeyframe>": "",
+          "Keyframes": [
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "134f4382-78a0-4c8f-a0ae-01d3153c70ef",
+                    "path": "sprites/gun_sprite/gun_sprite.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "019324d8-ba53-4e7e-b2d1-4912c1969495",
+              "IsCreationKey": false,
+              "Key": 0.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            }
+          ],
+          "resourceType": "KeyframeStore<SpriteFrameKeyframe>",
+          "resourceVersion": "2.0"
+        },
+        "modifiers": [],
+        "name": "frames",
+        "resourceType": "GMSpriteFramesTrack",
+        "resourceVersion": "2.0",
+        "spriteId": null,
+        "trackColour": 0,
+        "tracks": [],
+        "traits": 0
+      }
     ],
-    "visibleRange":null,
-    "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "visibleRange": null,
+    "volume": 1.0,
+    "xorigin": 19,
+    "yorigin": 58
   },
-  "swatchColours":null,
-  "swfPrecision":0.5,
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+  "swatchColours": null,
+  "swfPrecision": 0.5,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default"
   },
-  "type":0,
-  "VTile":false,
-  "width":60,
+  "type": 0,
+  "VTile": false,
+  "width": 120
 }
