@@ -29,6 +29,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"help_text","filters":[],"listItems":[],"multiselect":false,"name":"help_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"nashe\"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"pickup_text","filters":[],"listItems":[],"multiselect":false,"name":"pickup_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"puedeserpa?\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"help_display_time","filters":[],"listItems":[],"multiselect":false,"name":"help_display_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"300","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
