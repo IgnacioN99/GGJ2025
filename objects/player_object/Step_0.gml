@@ -10,7 +10,6 @@ if(place_meeting(x,y+1,ground_object)) && (k_jump){
 	v_speed -= jump_distance;
 }
 
-
 if(place_meeting(x+h_speed, y, ground_object)){
 	while(!place_meeting(x+sign(h_speed),y,ground_object)){
 		x = x+sign(h_speed);
