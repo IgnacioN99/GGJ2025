@@ -53,6 +53,6 @@ if (keyboard_check_pressed(vk_anykey)) {
     } else {
         // End the cutscene
         instance_destroy();
-        room_goto_next(); // Move to the next room
+		room_goto(dishes_room);
     }
 }

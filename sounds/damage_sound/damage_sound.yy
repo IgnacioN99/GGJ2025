@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.142268,
+  "duration":0.0,
   "name":"damage_sound",
   "parent":{
     "name":"Sounds",

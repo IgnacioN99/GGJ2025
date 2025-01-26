@@ -8,7 +8,10 @@
   ],
   "managed":true,
   "name":"sponge_object",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Ppicking_object","path":"objects/Ppicking_object/Ppicking_object.yy",},"propertyId":{"name":"help_text","path":"objects/Ppicking_object/Ppicking_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Rapido! Agarra la esponja, con el podras evitar la suciedad cuando limpies \\n Acercate para obtenerlo\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Ppicking_object","path":"objects/Ppicking_object/Ppicking_object.yy",},"propertyId":{"name":"pickup_text","path":"objects/Ppicking_object/Ppicking_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Un punto de vida adicional!! \\n Aprovechalo!!! \"",},
+  ],
   "parent":{
     "name":"pickeables",
     "path":"folders/Objects/pickeables.yy",

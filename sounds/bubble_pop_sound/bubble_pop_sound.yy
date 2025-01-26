@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.092018,
+  "duration":0.0,
   "name":"bubble_pop_sound",
   "parent":{
     "name":"Sounds",

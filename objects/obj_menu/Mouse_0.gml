@@ -1,1 +1,1 @@
-room_goto(cutsene_room);
+room_goto_next();
