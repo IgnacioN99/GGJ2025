@@ -36,8 +36,20 @@ if(temp_health>0){
 	}
 }
 
-if (h_speed < 0) {
-    image_xscale = -1; // Izquierda
-} else if (h_speed > 0) {
-    image_xscale = 1; // Derecha
+if(h_speed!=0) image_xscale=sign(h_speed);
+
+
+
+// animaciones
+if(!place_meeting(x,y+1,ground_object)){
+	sprite_index=player_moving_sprite;
+	image_speed=0;
+	if(sign(v_speed)>0) image_index =1;else image_index=0;
+}else{
+	image_speed=1;
+	if(h_speed==0){
+		sprite_index=player_sprite;
+	}else{
+		sprite_index=player_moving_sprite;
+	}
 }

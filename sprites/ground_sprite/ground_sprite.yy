@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"ground_sprite",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":31,
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"ec656100-f8d6-4954-841b-0f2893e39220","blendMode":0,"displayName":"default","isLocked":false,"name":"ec656100-f8d6-4954-841b-0f2893e39220","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
