@@ -37,7 +37,7 @@
   },
   "name":"GGJ_2025",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"pixel_font","path":"fonts/pixel_font/pixel_font.yy",},},
     {"id":{"name":"bossOlla","path":"objects/bossOlla/bossOlla.yy",},},
     {"id":{"name":"bullet_object","path":"objects/bullet_object/bullet_object.yy",},},
     {"id":{"name":"dead_player_object","path":"objects/dead_player_object/dead_player_object.yy",},},
@@ -57,6 +57,7 @@
     {"id":{"name":"sponge_object","path":"objects/sponge_object/sponge_object.yy",},},
     {"id":{"name":"test_object","path":"objects/test_object/test_object.yy",},},
     {"id":{"name":"text_object","path":"objects/text_object/text_object.yy",},},
+    {"id":{"name":"text_test_object","path":"objects/text_test_object/text_test_object.yy",},},
     {"id":{"name":"yellow_object","path":"objects/yellow_object/yellow_object.yy",},},
     {"id":{"name":"dishes_room","path":"rooms/dishes_room/dishes_room.yy",},},
     {"id":{"name":"nacho_room","path":"rooms/nacho_room/nacho_room.yy",},},

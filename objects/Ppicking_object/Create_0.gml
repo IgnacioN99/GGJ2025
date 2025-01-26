@@ -21,3 +21,6 @@ if (!text_displayed) {
         text_displayed = false; // Allow the text to be displayed again if the player comes back
     }
 }
+
+lifespan = 300;
+flashing = true;

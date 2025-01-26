@@ -1,6 +1,6 @@
 letters+=spd;
 text_current=string_copy(text,1,floor(letters));
-draw_set_font(Font1);
+draw_set_font(pixel_font);
 if(h==0) h=string_height(text);
 w=string_width(text);
 if(instance_exists(id)){
