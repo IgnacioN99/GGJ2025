@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"gun_sprite",
-    "path":"sprites/gun_sprite/gun_sprite.yy",
+    "name":"gun_shooting_sprite",
+    "path":"sprites/gun_shooting_sprite/gun_shooting_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

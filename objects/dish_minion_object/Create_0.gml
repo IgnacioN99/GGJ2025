@@ -1,3 +1,8 @@
+var snd = audio_play_sound(scream1_sound,1,false);
+audio_sound_gain(snd, 0, 0);
+audio_sound_gain(snd, 1, 500);
+y = ground_object.y
+
 min_dist = 300;
 random_dist = min_dist + random_range(0,min_dist*1.25); // distancia a la que comienza el salto hacia el jugador
 max_speed = 5;

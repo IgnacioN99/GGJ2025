@@ -12,4 +12,5 @@ function descontar_vida(){
 	}else{
 		p_health-=1;
 	}
+	audio_play_sound(damage_sound,1,false);
 }
