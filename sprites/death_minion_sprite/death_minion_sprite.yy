@@ -2,31 +2,24 @@
   "$GMSprite":"",
   "%Name":"death_minion_sprite",
   "bboxMode":0,
-  "bbox_bottom":109,
-  "bbox_left":31,
-  "bbox_right":95,
-  "bbox_top":12,
+  "bbox_bottom":88,
+  "bbox_left":8,
+  "bbox_right":104,
+  "bbox_top":29,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"864c0871-c419-4fe0-88d0-54d6fe4f2ef8","name":"864c0871-c419-4fe0-88d0-54d6fe4f2ef8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"253ffb89-3014-4871-a043-844c069cef60","name":"253ffb89-3014-4871-a043-844c069cef60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"54106bf7-43e9-4cee-9c25-c4a54198d31a","name":"54106bf7-43e9-4cee-9c25-c4a54198d31a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c178d580-4a9b-4ccc-8a1c-7be024f30625","name":"c178d580-4a9b-4ccc-8a1c-7be024f30625","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"738d85c0-1aed-4f4e-b16f-3b6df415e137","name":"738d85c0-1aed-4f4e-b16f-3b6df415e137","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"07c09071-0b87-4b1f-9223-f0188eca4727","name":"07c09071-0b87-4b1f-9223-f0188eca4727","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4c59ef6d-baaa-46f3-9515-9df12df58429","name":"4c59ef6d-baaa-46f3-9515-9df12df58429","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d4b8e950-b000-47df-9b5f-e4f0964588b1","name":"d4b8e950-b000-47df-9b5f-e4f0964588b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1af78339-fcc0-4143-9962-be0612f298b1","name":"1af78339-fcc0-4143-9962-be0612f298b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":128,
+  "height":112,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f29a3eae-d931-4be9-9abd-6d7e06cc180d","blendMode":0,"displayName":"default","isLocked":false,"name":"f29a3eae-d931-4be9-9abd-6d7e06cc180d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ddb12234-6240-4c5e-9c14-db6e969fab9e","blendMode":0,"displayName":"default","isLocked":false,"name":"ddb12234-6240-4c5e-9c14-db6e969fab9e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"death_minion_sprite",
   "nineSlice":null,
@@ -56,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":8.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -76,35 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"864c0871-c419-4fe0-88d0-54d6fe4f2ef8","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a59c1f85-9f2b-470c-b449-00dbb46d2158","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"253ffb89-3014-4871-a043-844c069cef60","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"24c11ce6-8dc2-402a-89c5-fa1bd91db5a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54106bf7-43e9-4cee-9c25-c4a54198d31a","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5f65c553-86da-44ea-81a5-6120420eb20f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c178d580-4a9b-4ccc-8a1c-7be024f30625","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d968a725-73f0-4ea0-b8f3-c4e82a19bfef","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"738d85c0-1aed-4f4e-b16f-3b6df415e137","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ea080264-51dc-4cad-a988-60add6443e70","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"07c09071-0b87-4b1f-9223-f0188eca4727","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"78103a9c-0a7a-4ace-9cc0-f7427fcf1309","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c59ef6d-baaa-46f3-9515-9df12df58429","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"360d2d0d-0fcf-43a7-8e8d-5b45e9bf8e7c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4b8e950-b000-47df-9b5f-e4f0964588b1","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"958af760-a877-465b-8ae7-078969001aed","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1af78339-fcc0-4143-9962-be0612f298b1","path":"sprites/death_minion_sprite/death_minion_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"780aff10-f2b5-411e-9ec0-8de9bd13c7e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":107,
+    "yorigin":55,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -114,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":112,
 }

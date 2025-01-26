@@ -1,6 +1,6 @@
 spd=0.25;
 letters=0;
-text="puto el q lee";
+text="no text";
 length=string_length(text);
 text_current="";
 w=0;

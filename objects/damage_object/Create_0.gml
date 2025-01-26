@@ -1,0 +1,1 @@
+audio_play_sound(boss_damage_sound,1,false);

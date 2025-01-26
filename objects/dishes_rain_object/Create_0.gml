@@ -1,3 +1,4 @@
-rotation_speed = 15;
+rotation_speed = 0;
 _gravity = 5;
-oscilation = 0;
+
+image_speed = 0;

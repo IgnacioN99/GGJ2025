@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.365714,
   "name":"jump1_sound",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"jump1_sound.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.3,
 }

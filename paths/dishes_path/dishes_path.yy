@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"dishes_path",
+  "closed":false,
+  "kind":1,
+  "name":"dishes_path",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":985.0,"y":640.0,},
+    {"speed":100.0,"x":793.0,"y":512.0,},
+    {"speed":100.0,"x":793.0,"y":256.0,},
+    {"speed":100.0,"x":921.0,"y":128.0,},
+    {"speed":100.0,"x":1145.0,"y":160.0,},
+    {"speed":100.0,"x":1177.0,"y":320.0,},
+    {"speed":100.0,"x":1113.0,"y":576.0,},
+    {"speed":100.0,"x":985.0,"y":640.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
