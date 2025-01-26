@@ -1,1 +1,4 @@
-draw_text_color(50,20,vida,c_black,c_black,c_black,c_black,100);
+/// @desc Health bar
+draw_sprite(background_hb_sprite,0,healthbar_x,healthbar_y);
+draw_sprite_stretched(bar_sprite,0,healthbar_x,healthbar_y,(vida/vida_max)*healthbar_w,healthbar_h)
+draw_sprite(marquee_sprite,0,healthbar_x,healthbar_y);

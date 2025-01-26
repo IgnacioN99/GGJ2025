@@ -6,5 +6,6 @@ if (vulnerable){
 }
 
 if (vida <= 0){
-	dishes_logic.end_game = true;
+	instance_destroy();
+	dishes_logic.game_over = true;
 }
