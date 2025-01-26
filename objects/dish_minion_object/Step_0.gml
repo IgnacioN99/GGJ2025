@@ -4,7 +4,9 @@ if (instance_exists(player_object)) {
 			if (x > player_object.x) and (distance_to_object(player_object) <=  random_dist){
 				set_jump(player_object.x,player_object.y+64)
 				is_jumping = true;
-				audio_play_sound(jump1_sound,1,false);
+				audio_play_sound(jump1_sound, 0.2,false);
+				audio_sound_gain(jump1_sound, 0.2, 0);
+				audio_sound_gain(jump1_sound, 0.2, 500);
 			}else{
 				run();
 			}
