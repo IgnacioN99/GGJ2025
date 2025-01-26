@@ -7,12 +7,18 @@
   ],
   "managed":true,
   "name":"yellow_object",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Ppicking_object","path":"objects/Ppicking_object/Ppicking_object.yy",},"propertyId":{"name":"help_text","path":"objects/Ppicking_object/Ppicking_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Rapido! Agarra el detergente, con el podras limpiar mas rapido \\n Acercate para obtenerlo\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Ppicking_object","path":"objects/Ppicking_object/Ppicking_object.yy",},"propertyId":{"name":"pickup_text","path":"objects/Ppicking_object/Ppicking_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Vamos!! Maxima velocidad\"",},
+  ],
   "parent":{
     "name":"pickeables",
     "path":"folders/Objects/pickeables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Ppicking_object",
+    "path":"objects/Ppicking_object/Ppicking_object.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

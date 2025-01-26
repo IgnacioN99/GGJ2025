@@ -9,7 +9,6 @@
     {"name":"inst_17901467","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_57840A1E","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_7B4B7B73","path":"rooms/nacho_room/nacho_room.yy",},
-    {"name":"inst_60CEBC84","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_67B41AED","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_23E03C03","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_2E4A943","path":"rooms/nacho_room/nacho_room.yy",},
@@ -55,6 +54,7 @@
     {"name":"inst_77683338","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_4727F873","path":"rooms/nacho_room/nacho_room.yy",},
     {"name":"inst_23C2F890","path":"rooms/nacho_room/nacho_room.yy",},
+    {"name":"inst_7678CA8B","path":"rooms/nacho_room/nacho_room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,11 +62,8 @@
         {"$GMRInstance":"v1","%Name":"inst_7B4B7B73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B4B7B73","objectId":{"name":"hud_object","path":"objects/hud_object/hud_object.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":32.0,},
       ],"layers":[],"name":"hud_instance","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"entities_layer","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_60CEBC84","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60CEBC84","objectId":{"name":"sponge_object","path":"objects/sponge_object/sponge_object.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Ppicking_object","path":"objects/Ppicking_object/Ppicking_object.yy",},"propertyId":{"name":"help_text","path":"objects/Ppicking_object/Ppicking_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Rapido! Agarra la esponja para protegerte \\n Acercate y presiona e para equiparlo\"",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Ppicking_object","path":"objects/Ppicking_object/Ppicking_object.yy",},"propertyId":{"name":"pickup_text","path":"objects/Ppicking_object/Ppicking_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Ahora tengo mas vida? \\n Puntos de vida temporales, ten cuidado\"",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":60.734505,"scaleX":1.8,"scaleY":1.8,"x":864.0,"y":672.0,},
-      ],"layers":[],"name":"entities_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+        {"$GMRInstance":"v1","%Name":"inst_7678CA8B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7678CA8B","objectId":{"name":"yellow_object","path":"objects/yellow_object/yellow_object.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":672.0,},
+      ],"layers":[],"name":"entities_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"bullet_instance","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"bullet_instance","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"player_instance","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_17901467","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17901467","objectId":{"name":"player_object","path":"objects/player_object/player_object.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.91317827,"scaleY":0.8358975,"x":544.0,"y":544.0,},
