@@ -68,6 +68,7 @@
     {"id":{"name":"dishes_path","path":"paths/dishes_path/dishes_path.yy",},},
     {"id":{"name":"cutsene_room","path":"rooms/cutsene_room/cutsene_room.yy",},},
     {"id":{"name":"dishes_room","path":"rooms/dishes_room/dishes_room.yy",},},
+    {"id":{"name":"MenuInicio","path":"rooms/MenuInicio/MenuInicio.yy",},},
     {"id":{"name":"nacho_room","path":"rooms/nacho_room/nacho_room.yy",},},
     {"id":{"name":"ROOM_LUCAS","path":"rooms/ROOM_LUCAS/ROOM_LUCAS.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -101,6 +102,7 @@
     {"id":{"name":"dishes_sprite","path":"sprites/dishes_sprite/dishes_sprite.yy",},},
     {"id":{"name":"dishes_vulnerable_sprite","path":"sprites/dishes_vulnerable_sprite/dishes_vulnerable_sprite.yy",},},
     {"id":{"name":"dying_dishes_sprite","path":"sprites/dying_dishes_sprite/dying_dishes_sprite.yy",},},
+    {"id":{"name":"FondoMenu","path":"sprites/FondoMenu/FondoMenu.yy",},},
     {"id":{"name":"FondoPantalla","path":"sprites/FondoPantalla/FondoPantalla.yy",},},
     {"id":{"name":"glove_sprite","path":"sprites/glove_sprite/glove_sprite.yy",},},
     {"id":{"name":"green_sprite","path":"sprites/green_sprite/green_sprite.yy",},},
@@ -128,6 +130,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"cutsene_room","path":"rooms/cutsene_room/cutsene_room.yy",},},
+    {"roomId":{"name":"MenuInicio","path":"rooms/MenuInicio/MenuInicio.yy",},},
     {"roomId":{"name":"dishes_room","path":"rooms/dishes_room/dishes_room.yy",},},
     {"roomId":{"name":"test","path":"rooms/test/test.yy",},},
     {"roomId":{"name":"nacho_room","path":"rooms/nacho_room/nacho_room.yy",},},

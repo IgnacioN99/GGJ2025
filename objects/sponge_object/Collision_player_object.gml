@@ -18,4 +18,4 @@ if (instance_exists(text_object)) {
 	}
 			
 }
-instance_destroy();
+alarm_set(0,60);
