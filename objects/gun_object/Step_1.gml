@@ -5,7 +5,9 @@ image_angle=point_direction(x,y,mouse_x,mouse_y-5);
 recoil=max(0,recoil-1);
 firing_delay = firing_delay-1;
 if (mouse_check_button(mb_left)) && (firing_delay<0){
-	audio_play_sound(bubble_pop_sound,1,false);
+	audio_play_sound(bubble_pop_sound,0.3,false);
+	audio_sound_gain(bubble_pop_sound, 0.3, 0);
+	audio_sound_gain(bubble_pop_sound, 0.3, 500);
 	image_speed = 1;
 	firing_delay = 10;
     var bullet_x = x + lengthdir_x(barrel_length, image_angle);

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"orange_object",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"player_object","path":"objects/player_object/player_object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"orange_object",
   "overriddenProperties":[],
