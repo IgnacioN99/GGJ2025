@@ -41,15 +41,20 @@ if(h_speed!=0) image_xscale=sign(h_speed);
 
 
 // animaciones
-if(!place_meeting(x,y+1,ground_object)){
-	sprite_index=player_moving_sprite;
-	image_speed=0;
-	if(sign(v_speed)>0) image_index =1;else image_index=0;
-}else{
-	image_speed=1;
-	if(h_speed==0){
-		sprite_index=player_sprite;
-	}else{
+if (!is_flashing) { // Only update animations if not flashing
+	if(!place_meeting(x,y+1,ground_object)){
 		sprite_index=player_moving_sprite;
+		image_speed=0;
+		if(sign(v_speed)>0) image_index =1;else image_index=0;
+	}else{
+		image_speed=1;
+		if(h_speed==0){
+			sprite_index=player_sprite;
+		}else{
+			sprite_index=player_moving_sprite;
+		}
 	}
+} else {
+    // Maintain the damage sprite while flashing
+    image_speed = 0; // Stop animation during the flashing state
 }

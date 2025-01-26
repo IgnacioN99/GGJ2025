@@ -82,6 +82,7 @@
     {"id":{"name":"gun_shooting_sprite","path":"sprites/gun_shooting_sprite/gun_shooting_sprite.yy",},},
     {"id":{"name":"gun_sprite","path":"sprites/gun_sprite/gun_sprite.yy",},},
     {"id":{"name":"orange_sprite","path":"sprites/orange_sprite/orange_sprite.yy",},},
+    {"id":{"name":"player_damage_sprite","path":"sprites/player_damage_sprite/player_damage_sprite.yy",},},
     {"id":{"name":"player_left_damage_sprite","path":"sprites/player_left_damage_sprite/player_left_damage_sprite.yy",},},
     {"id":{"name":"player_left_sprite","path":"sprites/player_left_sprite/player_left_sprite.yy",},},
     {"id":{"name":"player_moving_sprite","path":"sprites/player_moving_sprite/player_moving_sprite.yy",},},
