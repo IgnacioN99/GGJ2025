@@ -103,7 +103,6 @@
     {"id":{"name":"dishes_vulnerable_sprite","path":"sprites/dishes_vulnerable_sprite/dishes_vulnerable_sprite.yy",},},
     {"id":{"name":"dying_dishes_sprite","path":"sprites/dying_dishes_sprite/dying_dishes_sprite.yy",},},
     {"id":{"name":"FondoMenu","path":"sprites/FondoMenu/FondoMenu.yy",},},
-    {"id":{"name":"FondoPantalla","path":"sprites/FondoPantalla/FondoPantalla.yy",},},
     {"id":{"name":"glove_sprite","path":"sprites/glove_sprite/glove_sprite.yy",},},
     {"id":{"name":"green_sprite","path":"sprites/green_sprite/green_sprite.yy",},},
     {"id":{"name":"ground_sprite","path":"sprites/ground_sprite/ground_sprite.yy",},},
@@ -129,8 +128,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"nacho_room","path":"rooms/nacho_room/nacho_room.yy",},},
     {"roomId":{"name":"dishes_room","path":"rooms/dishes_room/dishes_room.yy",},},
+    {"roomId":{"name":"nacho_room","path":"rooms/nacho_room/nacho_room.yy",},},
     {"roomId":{"name":"MenuInicio","path":"rooms/MenuInicio/MenuInicio.yy",},},
     {"roomId":{"name":"cutsene_room","path":"rooms/cutsene_room/cutsene_room.yy",},},
     {"roomId":{"name":"test","path":"rooms/test/test.yy",},},

@@ -1,6 +1,6 @@
 var snd = audio_play_sound(scream1_sound,1,false);
 audio_sound_gain(snd, 0, 0);
-audio_sound_gain(snd, 1, 1500);
+audio_sound_gain(snd, 0.3, 500);
 y = ground_object.y
 
 min_dist = 300;

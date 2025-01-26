@@ -1,3 +1,7 @@
+var snd = audio_play_sound(boss_damage_sound,1,false);
+audio_sound_gain(snd, 0.5, 0);
+audio_sound_gain(snd, 0, 500);
+
 instance_create_layer(x,y,other.layer,damage_object);
 
 instance_destroy(other);

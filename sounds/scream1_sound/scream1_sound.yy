@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"scream1_sound.mp3",
   "type":0,
-  "volume":0.31,
+  "volume":0.3,
 }
